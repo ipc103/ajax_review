@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CatBook Fun</title>
+  </head>
+  <body>
+
+    <h1>CatBook</h1>
+
+    <ul class="cats-index">
+
+    </ul>
+
+    <form class="cat-form" action="http://localhost:3000/api/v1/cats" method="post">
+      <label for="cat-name">Cat's Name</label>
+      <input id="cat-name" type="text" name="name">
+      <label for="cat-temperament">Cat's Temperament</label>
+      <input id="cat-temperament" type="text" name="temperament">
+      <label for="cat-breed">Cat's Breed</label>
+      <input id="cat-breed" type="text" name="breed">
+      <label for="cat-weight">Cat's Weight</label>
+      <input id="cat-weight" type="text" name="weight">
+      <input type="submit" name="submit" value="submit">
+    </form>
+
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js">
+    </script>
+  </body>
+</html>
